@@ -42,11 +42,7 @@ header.sticky  {
 }
 
 header .logo {
-<<<<<<< HEAD
     /* this is for the line that says " logo at the very beginning of the HTML code */
-=======
-    
->>>>>>> 0a7db8c6a1a91279891b71345194a2423b91f571
     object-fit: cover;
     height: 4rem;
     width: 4rem;
@@ -54,11 +50,7 @@ header .logo {
 }
 
 header .nav {
-<<<<<<< HEAD
     /* navigation bar in the beginning of the HTML code (the navigation bar is at the very top of the page FYI */
-=======
-    
->>>>>>> 0a7db8c6a1a91279891b71345194a2423b91f571
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,22 +70,14 @@ header ul li a {
 }
 
 header ul li a:hover {
-<<<<<<< HEAD
     /* hovering over the navigation bar ( makes the color teal in this case at the moment */
-=======
-  
->>>>>>> 0a7db8c6a1a91279891b71345194a2423b91f571
     background-color: #1aeeef;
     color: black;
     box-shadow: 0 0 10px #1aeeef;
 }
 
 header .action .searchBx {
-<<<<<<< HEAD
-    /* This is for these classes that we made in the HTML file (MAKE SURE TO CHANGE THIS LATER) */
-=======
    
->>>>>>> 0a7db8c6a1a91279891b71345194a2423b91f571
     padding: 5px;
     margin: 5px;
     display: flex;

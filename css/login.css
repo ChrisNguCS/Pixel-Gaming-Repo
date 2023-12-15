@@ -77,11 +77,7 @@ header ul li a:hover {
 }
 
 header .action .searchBx {
-<<<<<<< HEAD
-    /* This is for these classes that we made in the HTML file (MAKE SURE TO CHANGE THIS LATER) */
-=======
    
->>>>>>> 0a7db8c6a1a91279891b71345194a2423b91f571
     padding: 5px;
     margin: 5px;
     display: flex;
@@ -155,6 +151,15 @@ header .action .searchBx input {
     flex-direction: column;
     gap: 25px;
 }
+
+.inputBox{
+  margin-bottom: 25px;
+}
+
+.links{
+  margin-bottom: 15px;
+}
+
 .signin .content .form .inputBox
 {
     position: relative;
