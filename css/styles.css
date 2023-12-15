@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+div{
+    scroll-margin-top: 100px;
+}
+
+/* scroll bar */ 
+
+::-webkit-scrollbar { 
+    width:12px; 
+}
+
+::-webkit-scrollbar-thumb { 
+    background: skyblue; 
+    border-radius: 6px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 7px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #444140; 
+    transition: 0.5s;
+    z-index: 1000;
+}
+header.sticky  { 
+    background: black; 
+    box-shadow: 0 5px 20px rgba(41, 41, 41, 0.9);
+}
+
+header .logo {
+<<<<<<< HEAD:css/styles.css
+    /* this is for the line that says " logo at the very beginning of the HTML code */
+=======
+ 
+>>>>>>> 0a7db8c6a1a91279891b71345194a2423b91f571:styles.css
+    object-fit: cover;
+    height: 4rem;
+    width: 4rem;
+    margin-left: 10vw;
+}
+
+header .nav {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+header ul li {
+    list-style: none;
+    margin: 30px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+header ul li a:hover {
+   
+    background-color: #1aeeef;
+    color: black;
+    box-shadow: 0 0 10px #1aeeef;
+}
+
+header .action .searchBx {
+
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+}
+
+header .action .searchBx i {
+    font-size: 1.4em;
+    margin: 5px;
+    color: black;
+}
+
+header .action .searchBx input {
+    outline: none;
+    border: none;
+    font-size: 1em;
+    color: black;
+
+}
+
+/* Home Banner */
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(30,30,36);
+    background: linear-gradient(0deg, rgba(30,30,36,1) 0%, rgba(30,30,36,1) 15%, rgba(68,65,64,1) 32%);
+}
+
+.banner .bg {
+    /* bg class this is the text next to the image*/
+    position: relative;
+    width: 100%;
+    margin: 0 10vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .bg .content {
+    width: 70%;
+    height: 100%;
+
+}
+
+.banner .bg .content h2 {
+    font-size: 4em;
+    color: white;
+    letter-spacing: 1px;
+
+}
+.banner .bg .content h3 {
+    font-size: 2em;
+    color: white;
+    letter-spacing: 1px;
+
+}
+.banner .bg .content p {
+    font-size: 1.5em;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.banner .bg .content a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid teal;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+.banner .bg .content a:hover {
+    background: skyblue;
+    border: none;
+    color: black;
+    box-shadow: 0 0 10px skyblue;
+}
+
+.container{
+    height: 600px;
+    width: 500px;
+    position: relative;
+
+}
+
+.masterChief{
+    height: 100%;
+    width: 100%;
+    margin-top:250px;
+    object-fit: cover;
+    display: inline-block;
+}
+
+.gradient {
+    height: 100%;
+    width: 100%;
+    position:absolute;
+
+    background: rgb(30,30,36);
+    background: linear-gradient(0deg, rgba(30,30,36,1) 0%, rgba(68,65,64,0) 20%);
+}
+
+/* about */ 
+
+.about { 
+
+    position: relative; 
+    width: 100%; 
+    min-height: 75vh;
+    padding: 0px 300px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #1E1E24;
+}
+
+.about .contentBx { 
+
+width: 100%; 
+margin: 10px 
+
+}
+
+.about .contentBx h2 { 
+    font-size: 3em; 
+    font-weight: 700; 
+    color: white; 
+
+}
+
+.about .contentBx p { 
+
+    max-width: 1000px; 
+    text-align: justify; 
+    color: white; 
+} 
+.about .contentBx  a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid teal;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+.about .contentBx a:hover {
+    background: skyblue;
+    border: none;
+    color: black;
+    box-shadow: 0 0 10px skyblue;
+}
+
+.kirby{
+    width: 16vw;
+    margin-left: 300px;
+}
+/* games */ 
+.games { 
+    padding: 0px 100px; 
+    width: 100%; 
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    margin: 0px auto; 
+    background: rgb(68,65,64);
+    background: linear-gradient(0deg, rgba(68,65,64,1) 0%, rgba(68,65,64,1) 73%, rgba(30,30,36,1) 88%);
+
+}
+
+.games h2 { /* features games title */ 
+    color: white; 
+    margin: 10px 0px;
+    font-size: 3em; 
+
+} 
+.games ul { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap; 
+    margin-bottom: 20px;
+}
+
+.games ul li{ /* all games, pc and upcoming tab */ 
+    list-style: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    margin: 5px; 
+    letter-spacing: 1px; 
+    cursor: pointer; 
+    color: white; 
+} 
+
+.games ul li.active { 
+    background: skyblue; 
+    color: black; 
+    box-shadow: 0 0 10px skyblue;
+
+}
+
+
+.shine figure {
+	position: relative;
+}
+.shine figure::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.shine figure:hover::before {
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+
+.gameImg{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+.gameContainer{
+    position: relative;
+    width: 100%;
+}
+
+.play{
+    object-fit: fill;
+}
+
+.text {
+
+    color: white;
+    font-size: 12px;
+    padding: 6px 2px;
+    text-align: center;
+}
+
+.shine:hover .middle{
+    opacity: 1;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.games .cardBx{ 
+    width: 100%; 
+    min-height: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.games .cardBx .card { 
+    height: auto;
+    width: 200px; 
+    border-radius: 20px;
+    margin: 20px 50px; 
+    overflow: hidden;
+
+}
+
+.games  .cardBx .card img{ 
+    width: 100%; 
+    height: 300px; 
+    object-fit: cover; 
+} 
+
+
+
+/* hiding games depending on the tab that was chose */ 
+.games .cardBx .card.hide  { 
+    display: none; 
+
+}
+
+.tournaments { 
+    padding: 0px 100px; 
+    width: 100%; 
+    min-height: 100vh;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.tournaments h2{ 
+    color: white; 
+    margin: 10px 0; 
+} 
+
+.tournaments .boxBx { 
+
+    width: 100%; 
+    min-height: 100%; 
+    display: grid; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.tournaments .boxBx .box { 
+    width: 350px; 
+    border-radius: 10px; 
+    margin: 20px 40px; 
+    background: black; 
+    overflow: hidden; 
+} 
+
+.tournaments .boxBx .box img { 
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover;
+}
+
+.tournaments .boxBx .box .content { 
+    padding: 10px; 
+}
+
+.contact {
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.contactTitle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.contactDesc {
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactForm {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+    
+}
+
+.name, .email, .msg {
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    width: 100%;
+    max-width: 80%;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+
+}
+
+.submitBtn{
+    background: rgb(50, 50, 50);
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    margin: 2rem;
+    padding: 0.75rem 3.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 1rem;
+}
+
+.textArea{
+    font-family: 'Poppins', sans-serif;
+}

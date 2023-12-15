@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+}
+
+/* scroll bar */ 
+
+::-webkit-scrollbar { 
+    width:12px; 
+}
+
+::-webkit-scrollbar-thumb { 
+    background: skyblue; 
+    border-radius: 6px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 7px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #444140; 
+    transition: 0.5s;
+    z-index: 1000;
+}
+header.sticky  { 
+    background: black; 
+    box-shadow: 0 5px 20px rgba(41, 41, 41, 0.9);
+}
+
+header .logo {
+<<<<<<< HEAD
+    /* this is for the line that says " logo at the very beginning of the HTML code */
+=======
+    
+>>>>>>> 0a7db8c6a1a91279891b71345194a2423b91f571
+    object-fit: cover;
+    height: 4rem;
+    width: 4rem;
+    margin-left: 10vw;
+}
+
+header .nav {
+<<<<<<< HEAD
+    /* navigation bar in the beginning of the HTML code (the navigation bar is at the very top of the page FYI */
+=======
+    
+>>>>>>> 0a7db8c6a1a91279891b71345194a2423b91f571
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+header ul li {
+    list-style: none;
+    margin: 30px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+header ul li a:hover {
+<<<<<<< HEAD
+    /* hovering over the navigation bar ( makes the color teal in this case at the moment */
+=======
+  
+>>>>>>> 0a7db8c6a1a91279891b71345194a2423b91f571
+    background-color: #1aeeef;
+    color: black;
+    box-shadow: 0 0 10px #1aeeef;
+}
+
+header .action .searchBx {
+<<<<<<< HEAD
+    /* This is for these classes that we made in the HTML file (MAKE SURE TO CHANGE THIS LATER) */
+=======
+   
+>>>>>>> 0a7db8c6a1a91279891b71345194a2423b91f571
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+}
+
+header .action .searchBx i {
+    font-size: 1.4em;
+    margin: 5px;
+    color: black;
+}
+
+header .action .searchBx input {
+    outline: none;
+    border: none;
+    font-size: 1em;
+    color: black;
+
+}
+
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(30,30,36);
+    background: linear-gradient(0deg, rgba(30,30,36,1) 0%, rgba(30,30,36,1) 15%, rgba(68,65,64,1) 32%);
+}
+
+.contact
+{
+    position: absolute;
+    width: 800px;
+    background: rgb(30,30,36);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0 15px 35px rgba(0,0,0,9);
+}
+.contact .content 
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contact .content h2 
+{
+    font-size: 2em;
+    color: white;
+    text-transform: uppercase;
+}
+.contact .content .form 
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.contact .content .form .inputBox
+{
+    position: relative;
+    width: 100%;
+}
+.contact .content .form .inputBox input 
+{
+    position: relative;
+    width: 100%;
+    background: #333;
+    border: none;
+    outline: none;
+    padding: 25px 10px 7.5px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1em;
+}
+.contact .content .form .inputBox i 
+{
+  position: absolute;
+  left: 0;
+  padding: 15px 10px;
+  font-style: normal;
+  color: #aaa;
+  transition: 0.5s;
+  pointer-events: none;
+}
+.contact .content .form .inputBox input:focus ~ i,
+.contact .content .form .inputBox input:valid ~ i
+{
+  transform: translateY(-7.5px);
+  font-size: 0.8em;
+  color: #fff;
+}
+.contact .content .form .links 
+{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.contact .content .form .links a 
+{
+  color: #fff;
+  text-decoration: none;
+}
+.contact .content .form .links a:nth-child(2)
+{
+  color: white;
+  font-weight: 600;
+}
+.contact .content .form .inputBox input[type="submit"]
+{
+  padding: 10px;
+  background: white;
+  color: #000;
+  font-weight: 600;
+  font-size: 1.35em;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+input[type="submit"]:active
+{
+  opacity: 0.6;
+}
+
+
+@media (max-width: 900px)
+{
+span 
+  {
+    width: calc(10vw - 2px);
+    height: calc(10vw - 2px);
+  }
+}
+@media (max-width: 600px)
+{
+span 
+  {
+    width: calc(20vw - 2px);
+    height: calc(20vw - 2px);
+  }
+}

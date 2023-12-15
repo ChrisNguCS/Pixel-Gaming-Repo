@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+}
+
+/* scroll bar */ 
+
+::-webkit-scrollbar { 
+    width:12px; 
+}
+
+::-webkit-scrollbar-thumb { 
+    background: skyblue; 
+    border-radius: 6px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 7px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #444140; 
+    transition: 0.5s;
+    z-index: 1000;
+}
+header.sticky  { 
+    background: black; 
+    box-shadow: 0 5px 20px rgba(41, 41, 41, 0.9);
+}
+
+header .logo {
+<<<<<<< HEAD
+    /* this is for the line that says " logo at the very beginning of the HTML code */
+=======
+  
+>>>>>>> 0a7db8c6a1a91279891b71345194a2423b91f571
+    object-fit: cover;
+    height: 4rem;
+    width: 4rem;
+    margin-left: 10vw;
+}
+
+header .nav {
+<<<<<<< HEAD
+    /* navigation bar in the beginning of the HTML code (the navigation bar is at the very top of the page FYI */
+=======
+  
+>>>>>>> 0a7db8c6a1a91279891b71345194a2423b91f571
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+header ul li {
+    list-style: none;
+    margin: 30px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+header ul li a:hover {
+<<<<<<< HEAD
+    /* hovering over the navigation bar ( makes the color teal in this case at the moment */
+=======
+   
+>>>>>>> 0a7db8c6a1a91279891b71345194a2423b91f571
+    background-color: #1aeeef;
+    color: black;
+    box-shadow: 0 0 10px #1aeeef;
+}
+
+header .action .searchBx {
+<<<<<<< HEAD
+    /* This is for these classes that we made in the HTML file (MAKE SURE TO CHANGE THIS LATER) */
+=======
+   
+>>>>>>> 0a7db8c6a1a91279891b71345194a2423b91f571
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+}
+
+header .action .searchBx i {
+    font-size: 1.4em;
+    margin: 5px;
+    color: black;
+}
+
+header .action .searchBx input {
+    outline: none;
+    border: none;
+    font-size: 1em;
+    color: black;
+
+}
+
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(30,30,36);
+    background: linear-gradient(0deg, rgba(30,30,36,1) 0%, rgba(30,30,36,1) 15%, rgba(68,65,64,1) 32%);
+}
+
+.header {
+    height: 300px;
+    width: 100vw;
+    position: relative;
+    object-fit: cover;
+    padding-top: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.headerContainer{
+    justify-content: space-between;
+}
+
+.title{
+    color: white;
+    font-size: 1.5em;
+    bottom: 0;
+}
+
+.tournamentContent{
+
+}
+
+.card{
+    background: #1E1E24;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    top: 100px;
+    height: 220px;
+
+}
+
+.cardblock{
+    padding: 10px;
+}
+
+.col{
+    border: 1px solid red;
+}
+
+.titleCard{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top: 250px;
+    left: 250px;
+
+}
+
+
+.thumbnail{
+    height: auto;
+    width: 200px; 
+    border-radius: 20px;
+    margin: 20px 50px; 
+    overflow: hidden;
+}
+
+.tournamentBox{
+    height: 200px;
+}
+
+.py-5{
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
+}
