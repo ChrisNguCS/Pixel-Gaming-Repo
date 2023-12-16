@@ -151,6 +151,6 @@ function createGame($conn, $gamename, $gamecredits, $gamemode, $teamsize, $playe
     //Exectute SQL statement
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
-    header("location: ../pages/index.php?error=none");
+    header("location: ../index.php?error=none");
     exit();
 }

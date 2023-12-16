@@ -89,6 +89,7 @@ header ul li a:hover {
     align-items: center;
     background: rgb(30,30,36);
     background: linear-gradient(0deg, rgba(30,30,36,1) 0%, rgba(30,30,36,1) 15%, rgba(68,65,64,1) 32%);
+    z-index: 3;
 }
 
 .header {
@@ -138,6 +139,7 @@ header ul li a:hover {
     flex-direction: row;
     top: 250px;
     left: 250px;
+    z-index: 3;
 
 }
 
@@ -148,6 +150,7 @@ header ul li a:hover {
     border-radius: 20px;
     margin: 20px 50px; 
     overflow: hidden;
+    z-index: 3;
 }
 
 .tournamentBox{
@@ -193,6 +196,7 @@ h2{
     margin-bottom: 50px;
     color: white;
     padding: 30px;
+    z-index: 0;
 }
 .tourneyStats{
     display: flex;
@@ -208,4 +212,5 @@ h2{
     display: flex;
     flex-wrap: wrap;
     margin-top: 400px;
+    z-index: 0;
 }

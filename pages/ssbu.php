@@ -16,7 +16,7 @@ include_once 'innerHeader.php';
         <img src="../images/ultimate.jpg" alt="" class="thumbnail" style="height:auto; width: 150px;">
         <h2 class="title">Upcoming Tournaments</h2>
     </div>
-
+        <div class='container'>
             <?php
                 require_once'../includes/dbh.inc.php';
                 $sql = "SELECT * FROM games WHERE gameName='Super Smash Brothers Ultimate';";
