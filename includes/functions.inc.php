@@ -71,7 +71,7 @@ function uidExists($conn, $username, $email) {
 
 function createUser($conn, $username, $email, $pwd) {
     //SQL Statement to insert data into the users table
-    $sql = "INSERT INTO users(usersUid, usersEmail, usersPwd) VALUES (?, ?, ?);";
+    $sql = "INSERT INTO users(usersEmail, usersUid, usersPwd) VALUES (?, ?, ?);";
     $stmt = mysqli_stmt_init($conn);
     //Prepares the sql statement for injection
     if (!mysqli_stmt_prepare( $stmt, $sql )) {
