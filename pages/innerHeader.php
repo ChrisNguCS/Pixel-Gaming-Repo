@@ -22,13 +22,12 @@
         <li><a href="../index.php">HOME</a></li>
         <li><a href="../index.php#about">ABOUT</a></li>
         <li><a href="../index.php#games">GAMES</a></li>
-        <li><a href="../pages/contact.php">CONTACT</a></li>
+        <li><a href="../contact.php">CONTACT</a></li>
         <?php
             if(isset($_SESSION["useruid"])) {
-                echo"<li><a href='pages/login.php'>PROFILE</a></li>";
                 echo"<li><a href='includes/logout.inc.php'>LOG OUT</a></li>";
             } else {
-                echo"<li><a href='pages/login.php'>LOG IN</a></li>";
+                echo"<li><a href='login.php'>LOG IN</a></li>";
             }
         ?>
     </ul>

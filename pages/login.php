@@ -33,7 +33,7 @@
                         </div>  
                         <div class="links"> 
                             <a href="./forgotPassword.php">Forgot Password</a> 
-                            <a href="./login.php">Sign In</a> 
+                            <a href="./signup.php">Sign Up</a> 
                         </div> 
                         <div class="inputBox"> 
                         <input type="submit" name="submit" value="Submit"> 
