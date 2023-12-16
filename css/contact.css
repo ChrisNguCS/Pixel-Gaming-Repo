@@ -76,30 +76,7 @@ header ul li a:hover {
     box-shadow: 0 0 10px #1aeeef;
 }
 
-header .action .searchBx {
-   
-    padding: 5px;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: white;
-    border-radius: 5px;
-}
 
-header .action .searchBx i {
-    font-size: 1.4em;
-    margin: 5px;
-    color: black;
-}
-
-header .action .searchBx input {
-    outline: none;
-    border: none;
-    font-size: 1em;
-    color: black;
-
-}
 
 
 .banner {

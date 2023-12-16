@@ -9,7 +9,6 @@
             <div class="content">
                 <h2>Pixel Gaming. </h2><br>
                 <p>Game and earn money</p>
-                <a href="pages/login.php" class="btn"> Join Now</a>
             </div>
             <div class="imgContainer">
                 <div class="gradient"></div>
@@ -61,7 +60,7 @@
             <div class="shine column">
                 <div class="card" data-item="pc">
                     <figure>
-                        <a href="#">
+                        <a href="pages/smite.php">
                             <img src="images/smite.jpg">
                         </a>
                     </figure>
@@ -71,7 +70,7 @@
             <div class="shine column">
                 <div class="card" data-item="pc">
                     <figure>
-                        <a href="#">
+                        <a href="pages/ssbu.php">
                             <img src="images/ultimate.jpg">
                         </a>
                     </figure>
@@ -81,7 +80,7 @@
             <div class="shine column">
                 <div class="card" data-item="pc">
                     <figure>
-                        <a href="#">
+                        <a href="pages/gears.php">
                             <img src="images/gears.png">
                         </a>
                     </figure>
@@ -99,7 +98,7 @@
             <div class="shine column">
                 <div class="card" data-item="pc">
                     <figure>
-                        <a href="#">
+                        <a href="pages/valorant.php">
                             <img src="images/valorant.jpg">
                         </a>
                     </figure>
@@ -109,7 +108,7 @@
             <div class="shine column">
                 <div class="card" data-item="pc">
                     <figure>
-                        <a href="#">
+                        <a href="pages/rocketLeague.php">
                             <img src="images/rocketleague.jpg">
                         </a>
                     </figure>
@@ -119,7 +118,7 @@
             <div class="shine column">
                 <div class="card" data-item="pc">
                     <figure>
-                        <a href="#">
+                        <a href="pages/overwatch.php">
                             <img src="images/overwatch.jpg">
                         </a>
                     </figure>
@@ -129,7 +128,7 @@
             <div class="shine column">
                 <div class="card" data-item="pc">
                     <figure>
-                        <a href="#">
+                        <a href="pages/fortnite.php">
                             <img src="images/fortnite.jpg">
                         </a>
                     </figure>

@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -23,12 +27,15 @@
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#games">GAMES</a></li>
             <li><a href="pages/contact.php">CONTACT</a></li> <!-- Sends user to seperate contact page-->
+            <?php
+            if(isset($_SESSION["useruid"])) {
+                echo"<li><a href='pages/login.php'>PROFILE</a></li>";
+                echo"<li><a href='includes/logout.inc.php'>LOG OUT</a></li>";
+            } else {
+                echo"<li><a href='pages/login.php'>LOG IN</a></li>";
+            }
+            ?>
         </ul>
-        <div class="action">
-            <div class="searchBx">
-                <a href="#"><i class='bx bx-search'></i></a>
-                <input type="text" placeholder="Search Games"> <!-- Search bar at top left -->
-            </div>
-        </div>
+
         <div class="toggleMenu"></div>
     </header>

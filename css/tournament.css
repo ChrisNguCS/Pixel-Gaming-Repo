@@ -76,30 +76,6 @@ header ul li a:hover {
     box-shadow: 0 0 10px #1aeeef;
 }
 
-header .action .searchBx {
-   
-    padding: 5px;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: white;
-    border-radius: 5px;
-}
-
-header .action .searchBx i {
-    font-size: 1.4em;
-    margin: 5px;
-    color: black;
-}
-
-header .action .searchBx input {
-    outline: none;
-    border: none;
-    font-size: 1em;
-    color: black;
-
-}
 
 
 .banner {
@@ -128,6 +104,7 @@ header .action .searchBx input {
 
 .headerContainer{
     justify-content: space-between;
+    
 }
 
 .title{
@@ -181,4 +158,54 @@ header .action .searchBx input {
     position: relative;
     top: 100px;
     border-radius: 20px;
+}
+
+h2{
+    font-weight: 900;
+}
+
+.createTournament{
+    position: fixed;
+    z-index: 3;
+    top: 250px;
+    right: 90px;
+    background: green;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    align-content: center;
+    justify-content: center;
+}
+
+.createTournament p {
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.tourneyBox{
+    background-color: #292929;
+    width: 500px;
+    height: 260px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    color: white;
+    padding: 30px;
+}
+.tourneyStats{
+    display: flex;
+}
+.tourneyInfo{
+    margin-right: 15px;
+}
+
+.container{
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 400px;
 }

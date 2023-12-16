@@ -1,12 +1,11 @@
 <?php
 include_once 'innerHeader.php';
 ?>
-
 <link rel="stylesheet" href="../css/tournament.css">
-<title>Halo Tournaments</title>
+<title>Rocket League Tournaments</title>
 <div class="banner">
     <div class="headerContainer">
-    <img src="../images/haloHeader.webp" alt="" class="header">
+        <img src="../images/rocketleague.jpg" alt="" class="header">
         <a href="../pages/createTournament.php">
         <div class="createTournament">
         <p>Create Tournament +</p>
@@ -14,13 +13,16 @@ include_once 'innerHeader.php';
         </a>
     </div>
     <div class="titleCard"  style="width: 600px; top: 200px; left: 150px;">
-    <img src="../images/Haloinfinite.png" alt="" class="thumbnail" style="height:auto; width: 150px;">
+        <img src="../images/rocketleague.jpg" alt="" class="thumbnail" style="height:auto; width: 150px;">
         <h2 class="title">Upcoming Tournaments</h2>
     </div>
 
+    <div>
+        <div class="container">
+            
             <?php
                 require_once'../includes/dbh.inc.php';
-                $sql = "SELECT * FROM games WHERE gameName='Halo Infinite';";
+                $sql = "SELECT * FROM games WHERE gameName='Rocket League';";
                 $result = mysqli_query($conn, $sql);
                 $resultCheck = mysqli_num_rows($result);
 
