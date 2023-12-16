@@ -19,7 +19,7 @@
 
 <body>
     <header>
-        <a href="#">
+        <a href="./includes/createTables.php">
             <img src="./images/pixel.png" alt="logo" class="logo"> <!-- Image of the Pixel Gaming logo -->
         </a>
         <ul class="nav"> <!-- Class for the Navigation Bar-->
