@@ -34,9 +34,9 @@ CREATE TABLE games (
 
 
 if ($conn->query($sql) === TRUE) {
-  header("location: ../index.php?db");
+  echo "Table games created successfully".'<br>';
 } else {
-  header("location: ../index.php?dber");
+  echo "Error creating table: " . $conn->error;
 }
 
 $sql2 = "
@@ -48,9 +48,9 @@ CREATE TABLE users (
 );
 ";
 if ($conn->query($sql2) === TRUE) {
-  header("location: ../index.php?db");
+  echo "Table users created successfully".'<br>';
 } else {
-  header("location: ../index.php?dber");
+  echo "Error creating table: " . $conn->error;
 }
 
 $conn->close();
